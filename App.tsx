@@ -8,6 +8,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 
 // navigation
 import Navigation from "./navigation/Navigation";
+import React from "react";
 
 const client = new QueryClient();
 

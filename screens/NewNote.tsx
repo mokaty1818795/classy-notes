@@ -25,6 +25,7 @@ import { useToast } from "react-native-toast-notifications";
 
 import { useMutation } from "react-query";
 import { useAuth } from "../contexts/AuthContext";
+import React from "react";
 
 const handleHead = ({ tintColor }: any) => (
   <Text style={{ color: tintColor }}>H1</Text>
@@ -126,7 +127,7 @@ const NewNote = ({ navigation, route }: any) => {
           <RichEditor
             ref={richText}
             androidLayerType="software"
-            placeholder="Write your note...."
+            placeholder="Write Health Tip...."
             onChange={(text) => setContent(text)}
             // containerStyle={{
             //   borderBlockColor: "red",

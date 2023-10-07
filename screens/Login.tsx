@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity, Image, Dimensions } from "react-native";
 import { useAuth } from "../contexts/AuthContext";
 
 import Lottie from "lottie-react-native";
+import React from "react";
 
 const Login = () => {
   const { googleLogin } = useAuth();

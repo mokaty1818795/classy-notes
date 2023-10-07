@@ -20,6 +20,7 @@ import { getNotes } from "../firebase/calls/getNotes";
 
 // context
 import { useAuth } from "../contexts/AuthContext";
+import React from "react";
 
 const Home = ({ navigation }: any) => {
   const { user, logout } = useAuth();

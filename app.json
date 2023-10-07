@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "Classy Notes",
-    "slug": "classy-notes",
+    "name": "healthapp",
+    "slug": "healthapp",
     "version": "1.0.0",
+    "scheme": "HealthApp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -27,8 +28,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "7fd999fe-6048-4f70-a410-169b9c421629"
+        "projectId": "a06043ac-52a8-4a17-b963-e91db2766bce"
       }
-    }
+    },
+    "owner": "sylotly"
   }
 }
